@@ -1,7 +1,13 @@
 Here, we will learn about CI. While making a full fledged project with model using ML, API using app.py, backend code, frontend code using html + css + js. To merge everything correctly, where api will hit correctly to the backend logic and then checking the code for results before fully deploying it requires some manual work to be done. But a manual person doing everything will be very difficult and thus CI handles the automation here as a helper.
 
-(1) The code in app.py is not dirtily written and hus needs to be cleaned. We will first create a github repository and perform the initial commit.
-(2) We will create a new folder as .github and workflow folder under it. There we will create ci.yaml file to create a ci/cd pipeline. 
+(1) The code in app.py is dirtily written and thus needs to be cleaned. We will first create a github repository and perform the initial commit.
+(2) We will create a new folder as .github and workflow folder under it. There we will create ci.yaml file to create a ci/cd pipeline. The code syntax has to be to understood. 
+(3) We will go to 'Actions' option  in github repository where the errors will be displayed over there neatly like which line number and after which character number we have some trailing white space or any other error.
+(4) If successfully executed it will show a green tick which ensures that CI pipeline has been successfully executed. 
+(5) We used test_app.py for testing the code after linting (checking the syntax of the code). 
+(6) Now, we will look into each and every command written inside the ci.yaml file.
+
+
 
 
 
