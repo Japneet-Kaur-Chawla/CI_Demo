@@ -1,6 +1,7 @@
 Here, we will learn about CI. While making a full fledged project with model using ML, API using app.py, backend code, frontend code using html + css + js. To merge everything correctly, where api will hit correctly to the backend logic and then checking the code for results before fully deploying it requires some manual work to be done. But a manual person doing everything will be very difficult and thus CI handles the automation here as a helper.
 
-(1) The code in app.py is not dirtily written and hus needs to be cleaned. We will first create a github repository
+(1) The code in app.py is not dirtily written and hus needs to be cleaned. We will first create a github repository and perform the initial commit.
+(2) We will create a new folder as .github and workflow folder under it. There we will create ci.yaml file to create a ci/cd pipeline. 
 
 
 
